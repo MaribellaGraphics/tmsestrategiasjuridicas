@@ -4,16 +4,78 @@ $colorprimario: #304554;
 $colorsecundario: #F8BB03;
 
 
-//Menu Principal
-header.headerprincipal row{
-  background-color: #F8BB03;
+body{
+  overflow-x: hidden;
 }
+
+//Menu Principal
+
+img.logotipo{
+  width: 200px;
+  margin-left: 20px;
+}
+
+.navbar{
+  background-color: #304554; }
+
+ 
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: white;
+
+
+    a.navbar-brand{
+      width: 20px;
+      
+    }
+
+}
+// menu paginas
+.navbar-expand-lg .navbar-collapse {
+  margin-left: 57%;
+
+} 
+
+//Menu Redes sociales
+
+.barraredessociales.row{
+ background-color: #F8BB03;
+ height: 24px;
+  
+}
+
+  ul.menuredesociales{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+  .bi-facebook::before {
+      color: #304554;
+  }
+
+  .bi-instagram::before {
+    color: #304554;
+}
+
+.bi-linkedin::before {
+  color: #304554;
+}
+
+.bi-whatsapp::before {
+  color: #304554;
+}
+ }
+  
+
 
 
 //Footer
 footer.footerprincipal.row{
   background-color: $colorprimario;
-  height: 50px;
+  height: 60px;
 
   p.parrafosfooter{
    color: white;

@@ -1,10 +1,56 @@
-header.headerprincipal row {
+body {
+  overflow-x: hidden;
+}
+
+img.logotipo {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.navbar {
+  background-color: #304554;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: white;
+}
+.navbar-nav .nav-link a.navbar-brand {
+  width: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-left: 57%;
+}
+
+.barraredessociales.row {
   background-color: #F8BB03;
+  height: 24px;
+}
+
+ul.menuredesociales {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+ul.menuredesociales .bi-facebook::before {
+  color: #304554;
+}
+ul.menuredesociales .bi-instagram::before {
+  color: #304554;
+}
+ul.menuredesociales .bi-linkedin::before {
+  color: #304554;
+}
+ul.menuredesociales .bi-whatsapp::before {
+  color: #304554;
 }
 
 footer.footerprincipal.row {
   background-color: #304554;
-  height: 50px;
+  height: 60px;
 }
 footer.footerprincipal.row p.parrafosfooter {
   color: white;
