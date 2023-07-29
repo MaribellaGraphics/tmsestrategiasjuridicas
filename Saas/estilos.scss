@@ -1,4 +1,28 @@
- header.headerprincipal row{
+//variables
 
-background-color: aqua;
- }
+$colorprimario: #304554;
+$colorsecundario: #F8BB03;
+
+
+//Menu Principal
+header.headerprincipal row{
+  background-color: #F8BB03;
+}
+
+
+//Footer
+footer.footerprincipal.row{
+  background-color: $colorprimario;
+  height: 50px;
+
+  p.parrafosfooter{
+   color: white;
+   text-align: center;
+   margin-top: 10px;
+   size: 19px;
+   font-weight: 400;
+   position: fixed;
+   
+   
+  }
+}

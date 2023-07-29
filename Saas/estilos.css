@@ -1,3 +1,16 @@
 header.headerprincipal row {
-  background-color: aqua;
+  background-color: #F8BB03;
+}
+
+footer.footerprincipal.row {
+  background-color: #304554;
+  height: 50px;
+}
+footer.footerprincipal.row p.parrafosfooter {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  size: 19px;
+  font-weight: 400;
+  position: fixed;
 }/*# sourceMappingURL=estilos.css.map */
