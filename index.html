@@ -16,21 +16,20 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-
-  <!--css -->
+  <!-- CSS generado desde Sass -->
   <link rel="stylesheet" href="Saas/estilos.css">
+
+  <style>
+    /* Estilos adicionales si es necesario */
+  </style>
 
 </head>
 
 <body>
 
   <!--Header-->
-  <div class="container-fluid ">
-
-    <header class="headerprincipal row top fixed">
+  <div class="container-fluid">
+    <header class="headerprincipal row">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href=""><img class="logotipo" src="imagenes/estrategiasblancoldpi.png" alt=""></a>
@@ -42,57 +41,53 @@
 
           <div class="collapse navbar-collapse titulosmenu" id="navbarText">
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item menuprincipaltitulos">
                 <a class="nav-link" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="..abogados.html">Abogados</a>
+                <a class="nav-link" href="Paginas/Abogados.html">Abogados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="..Servicios.html">Servicios</a>
+                <a class="nav-link" href="Paginas/Servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="..Blog.html">Blog</a>
+                <a class="nav-link" href="Paginas/Blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="..Contacto.html">Contacto</a>
+                <a class="nav-link" href="Paginas/Contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+    </header>
+
+    <!--Redes Sociales -->
+    <div class="barraredessociales row fixed" style="background-color: #F8BB03;">
+      <ul class="menuredesociales">
+        <li class="socialmedia p-4"></li>
+        <a class="iconosocial" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+
+        <li class="socialmedia p-4"></li>
+        <a class="iconosocial" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+
+        <li class="socialmedia p-4"></li>
+        <a class="iconosocial" href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+
+        <li class="socialmedia p-4"></li>
+        <a class="iconosocial" href="wa.link/ci1j2d" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      </ul>
+    </div>
+
   </div>
-
-<!--Redes Sociales -->
-  <div class="barraredessociales row">
-
-  <ul class="menuredesociales">
-    <li class="socialmedia p-4 "></li>
-    <a class="iconosocial" href="https://www.facebook.com/"target="_blank"><i class="bi bi-facebook"></i></a>
-
-    <li class="socialmedia p-4"></li>
-    <a class="iconosocial" href="https://www.instagram.com/"target="_blank"><i class="bi bi-instagram"></i></a>
-
-    <li class="socialmedia p-4"></li>
-    <a class="iconosocial" href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
-
-    <li class="socialmedia p-4"></li>
-    <a class="iconosocial" href="wa.link/ci1j2d" target="_blank"><i class="bi bi-whatsapp"></i></a>
-  </ul>
-</div>
-
-
-  </header>
 
   <!--Portada Carrusel-->
   <section class="cover-carrusel row">
-
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img  src="imagenes/Cover/cover1tms.png" class="d-block w-100" alt="...">
+          <img src="imagenes/Cover/cover1tms.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img src="imagenes/Cover/TMSabogados1.png" class="d-block w-100" alt="...">
@@ -115,11 +110,11 @@
     </div>
   </section>
 
-<!--Footer-->
-  <footer class="footerprincipal row bottom fixed">
-   <p class="parrafosfooter">Estrategias Juridicas TMS | 2023</p>
-
+  <!--Footer-->
+  <footer class="footerprincipal row fixed-bottom" style="background-color: #304554;">
+    <p class="parrafosfooter">Estrategias Juridicas TMS | 2023</p>
   </footer>
 
 </body>
-</html
+
+</html>

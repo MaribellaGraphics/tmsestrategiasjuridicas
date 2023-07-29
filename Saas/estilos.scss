@@ -1,90 +1,79 @@
-//variables
-
+//VARIABLES
 $colorprimario: #304554;
 $colorsecundario: #F8BB03;
 
-
-body{
+body {
+  background-color: $colorprimario;
   overflow-x: hidden;
 }
 
-//Menu Principal
+//MENU PRINCIPAL
 
-img.logotipo{
+img.logotipo {
   width: 200px;
   margin-left: 20px;
 }
 
-.navbar{
-  background-color: #304554; }
-
- 
-
-  .navbar-nav .nav-link {
-    font-size: 18px;
-    color: white;
-
-
-    a.navbar-brand{
-      width: 20px;
-      
-    }
-
+.navbar {
+  background-color: $colorprimario;
 }
-// menu paginas
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: white;
+
+  a.navbar-brand {
+    width: 20px;
+  }
+}
+
+// MENU PAGINAS
 .navbar-expand-lg .navbar-collapse {
   margin-left: 57%;
-
-} 
-
-//Menu Redes sociales
-
-.barraredessociales.row{
- background-color: #F8BB03;
- height: 24px;
-  
 }
 
-  ul.menuredesociales{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-decoration: none;
-    color: black;
+//MENU REDES SOCIALES
+
+.barraredessociales.row {
+  background-color: $colorsecundario;
+  height: 24px;
+}
+
+ul.menuredesociales {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  color: black;
 
   .bi-facebook::before {
-      color: #304554;
+    color: $colorprimario;
   }
 
   .bi-instagram::before {
-    color: #304554;
+    color: $colorprimario;
+  }
+
+  .bi-linkedin::before {
+    color: $colorprimario;
+  }
+
+  .bi-whatsapp::before {
+    color: $colorprimario;
+  }
 }
 
-.bi-linkedin::before {
-  color: #304554;
-}
-
-.bi-whatsapp::before {
-  color: #304554;
-}
- }
-  
-
-
-
-//Footer
-footer.footerprincipal.row{
+//FOOTER
+footer.footerprincipal.row {
   background-color: $colorprimario;
   height: 60px;
 
-  p.parrafosfooter{
-   color: white;
-   text-align: center;
-   margin-top: 10px;
-   size: 19px;
-   font-weight: 400;
-   position: fixed;
-   
-   
+  p.parrafosfooter {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    position: fixed;
   }
 }

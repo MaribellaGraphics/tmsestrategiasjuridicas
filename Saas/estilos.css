@@ -1,4 +1,5 @@
 body {
+  background-color: #304554;
   overflow-x: hidden;
 }
 
@@ -56,7 +57,7 @@ footer.footerprincipal.row p.parrafosfooter {
   color: white;
   text-align: center;
   margin-top: 10px;
-  size: 19px;
+  font-size: 19px;
   font-weight: 400;
   position: fixed;
 }/*# sourceMappingURL=estilos.css.map */
