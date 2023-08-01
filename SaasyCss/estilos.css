@@ -1,0 +1,13 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+footer p {
+  color: white;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}/*# sourceMappingURL=estilos.css.map */
